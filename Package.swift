@@ -6,11 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ZipArchive",
     platforms: [
-        .iOS("11.0"),
-        .tvOS("15.4"),
-        .macOS(.v10_15),
-        .watchOS("8.4"),
-        .macCatalyst("13.0")
+        .iOS("11.0")
     ],
     products: [
         .library(name: "ZipArchive", targets: ["ZipArchive"]),
