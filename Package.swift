@@ -15,6 +15,7 @@ let package = Package(
         .target(
             name: "ZipArchive",
             path: "SSZipArchive",
+            publicHeadersPath: "include",
             cSettings: [
                 .define("HAVE_INTTYPES_H"),
                 .define("HAVE_PKCRYPT"),
